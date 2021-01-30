@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>Payza1 Payment Extension</name>
+	<code>payza1</code>
+	<version>1.0.0</version>
+	<author>Aleksej Voroncov</author>
+	<link>https://github.com/razorpay/razorpay-opencart</link>
+</modification>

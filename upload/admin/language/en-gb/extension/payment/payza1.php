@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title']		 = 'Payza1';
+$_['heading_title']		 = 'Cardpay';
 
 // Text
 $_['text_extension']	 = 'Extensions';
 $_['text_success']		 = 'Success: You have modified Payza1 account details!';
-$_['text_edit']          = 'Edit Payza1';
+$_['text_edit']          = 'Edit Cardpay';
 
 // Entry
 $_['entry_merchant']	 = 'Merchant ID';

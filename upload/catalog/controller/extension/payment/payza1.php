@@ -78,7 +78,7 @@ class ControllerExtensionPaymentPayza1 extends Controller
     private function createPayment($orderId, $terminalCode, $password)
     {
         $order_info = $this->model_checkout_order->getOrder($orderId);
-        $customerEmail = $order_info['email']; //todo
+        $customerEmail = $order_info['email'];
         $orderDescription = 'Order ' . $orderId . ' (' . $order_info['invoice_prefix'] . '-' . $order_info['invoice_no'] . ') for user ' . $customerEmail;
         $orderAmount = $this->currency->format($order_info['total'], $order_info['currency_code'], $order_info['currency_value'], false);
         $orderCurrency = $this->session->data['currency'];
